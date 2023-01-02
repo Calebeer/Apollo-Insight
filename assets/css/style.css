@@ -77,7 +77,7 @@ header {
 
 .fundo{
    background-image: linear-gradient(to top, #FAC83E , #f0cb67,#F2C23D);
-   padding: 60px;
+   padding: 50px;
    
 }
 
@@ -124,7 +124,8 @@ html{
         
     }
     .video{
-        display:none ;
+        display:flex ;
+        
     }
     .nav-bar {
         padding: 0.5rem 4rem;
@@ -230,10 +231,11 @@ html{
     font-size: 200%;
 }
 iframe{
-    display: none;
+    display: flex;
+    
 }
 .video{
-    display: block;
+    display: flex;
     align-items: center;
     
 }
@@ -246,6 +248,7 @@ iframe{
 
 iframe{
     padding: 100px;
+    
     
 }
 
