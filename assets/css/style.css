@@ -236,7 +236,7 @@ iframe{
     
 }
 .video{
-    display: flex;
+    display: none;
     align-items: center;
     
 }
@@ -248,9 +248,7 @@ iframe{
 }
 
 iframe{
-    padding: 100px;
-    
-    
+    padding: none;
 }
 
 .text-mid{
