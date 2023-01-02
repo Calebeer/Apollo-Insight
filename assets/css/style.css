@@ -85,14 +85,13 @@ header {
     display: flex;
     align-items: center;
     transition-timing-function:ease ;
-    transition-duration: 2s;
-    transition-delay: 1s;
 }
 
 .text{
     font-size: 200%;
     color: white;
     font-weight: 600;
+    
 }
 
 #img-1{
@@ -114,6 +113,19 @@ html{
 
 
 @media screen and (max-width: 840px) {
+    
+    .container{
+        display: block;
+        align-items: center;
+        transition-timing-function:ease ;
+    }
+    #img-1{
+        width: 150px;
+        
+    }
+    .video{
+        display:none ;
+    }
     .nav-bar {
         padding: 0.5rem 4rem;
     }
@@ -217,11 +229,13 @@ html{
     color: #fff;
     font-size: 200%;
 }
-
+iframe{
+    display: none;
+}
 .video{
-    display: flex;
+    display: block;
     align-items: center;
-
+    
 }
 
 .container-mid{
