@@ -125,7 +125,6 @@ html{
     }
     .video{
         display:flex ;
-        
     }
     .nav-bar {
         padding: 0.5rem 4rem;
@@ -231,14 +230,21 @@ html{
     font-size: 200%;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.44);
 }
-iframe{
-    display: flex;
+
+.video{
+    padding: 20px;
+    margin:0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 57%;
     
 }
-.video{
-    display: none;
-    align-items: center;
-    
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
 
 .container-mid{
