@@ -118,21 +118,36 @@ html{
     
 }
 
+.container3{
+    background-color: #025487;
+    padding: 30px;
+    display: flex;
+    
+    flex-direction: row;
+}
 
 @media screen and (max-width: 810px) {
     
     .container3{
-        background-color: #025487;
-        padding: 30px;
-        display: flex;
+        text-align: center;
         flex-direction: column;
-        
+        align-items: center;
+        justify-content: center;
     }
 
     .video{
         padding:0;
         display: flex;
+        flex-direction: row;
         
+    }
+
+    .text4{
+        color: white;
+        padding-left: 0px  !important;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 130%;
+        max-width: 500px;    
     }
 
     .container{
@@ -207,13 +222,6 @@ html{
     }
 }
 
-
-@media screen and  (max-width: 600px){
-    
-     
-}
-
-
 .dinamico li{
     color: #3A465F;
     list-style: none;
@@ -266,13 +274,7 @@ html{
     display: block;
 }
 
-.container3{
-    background-color: #025487;
-    padding: 30px;
-    display: flex;
-    
-    flex-direction: row;
-}
+
 
 .video{
     padding:0;
