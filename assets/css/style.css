@@ -121,7 +121,14 @@ html{
 
 @media screen and (max-width: 840px) {
     
-    
+    .container3{
+        flex-direction: column;
+        background-color: #025487;
+        padding: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
     .container{
         display: block;
@@ -137,9 +144,6 @@ html{
         margin-top: 30px;
     }
 
-    .video{
-        display:flex ;
-    }
     .nav-bar {
         padding: 0.5rem 4rem;
     }
@@ -245,14 +249,6 @@ html{
    
 }
 
-.video{
-    padding: 20px;
-    margin:0px -20px 30px -20px;
-    position: relative;
-    padding-bottom: 57%;
-    
-}
-
 .text-mid{
     color: white;
     font-size: 230%;
@@ -266,13 +262,13 @@ html{
 
 .container3{
     background-color: #025487;
-    
     padding: 30px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+
 }
 
 .text4{
+    color: white;
     padding-left: 20px;
 }
