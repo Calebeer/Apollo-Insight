@@ -119,15 +119,20 @@ html{
 }
 
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 810px) {
     
     .container3{
-        flex-direction: column;
         background-color: #025487;
         padding: 30px;
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        flex-direction: column;
+        
+    }
+
+    .video{
+        padding:0;
+        display: flex;
+        
     }
 
     .container{
@@ -136,7 +141,7 @@ html{
         transition-timing-function:ease ;
     }
     #img-1{
-        width: 70%;
+        width: 60%;
         
     }
     
@@ -249,6 +254,7 @@ html{
    
 }
 
+
 .text-mid{
     color: white;
     font-size: 230%;
@@ -264,11 +270,21 @@ html{
     background-color: #025487;
     padding: 30px;
     display: flex;
-    justify-content: space-around;
+    
+    flex-direction: row;
+}
 
+.video{
+    padding:0;
+    display: flex;
 }
 
 .text4{
     color: white;
-    padding-left: 20px;
+    padding-left: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130%;
+    max-width: 500px;
+
 }
+
