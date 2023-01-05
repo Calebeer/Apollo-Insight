@@ -80,10 +80,10 @@ header {
     color: white;
 }
 
-.fundo{
-   background-image: linear-gradient(to top, #FAC83E , #f0cb67,#F2C23D);
-   padding: 50px;
-   
+.fundo {
+    background-image: linear-gradient(to top, #FAC83E , #f0cb67,#F2C23D);
+    padding: 50px;
+    padding-bottom: 0;
 }
 
 .container{
@@ -109,12 +109,12 @@ header {
     padding-bottom: 1000px;
 } */
 
-.localizacao{
+.localizacao {
     color: #24252a;
     font-size: 18px;
-    text-align: center ;
+    text-align: center;
     font-weight: bold;
-    
+    padding-bottom: 17px;
 }
 
 .container3{
@@ -194,8 +194,18 @@ header {
 
 @media screen and (max-width: 810px) {
     
-    .fundo{
+    .frase {
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-size: 168%;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    
+    .fundo {
         padding: 150px;
+        padding-bottom: 0;
     }
 
     .container3{
@@ -244,8 +254,9 @@ header {
         display: none;
     }
     
-    .localizacao{
-        margin-top: 40px;
+    .localizacao {
+        margin-top: 41px;
+        padding-bottom: 14px;
     }
 
     .nav-bar {
@@ -307,8 +318,15 @@ header {
 }
 
 @media screen and (max-width:600px) {
-    .fundo{
+    
+    .localizacao{
+        padding-top: 30px;
+        padding-bottom: 27px;
+    }
+    
+    .fundo {
         padding: 100px;
+        padding-bottom: 0px;
     }
 
     .frase{
@@ -320,12 +338,15 @@ header {
 }
 
 @media screen and (max-width:400px) {
+    
     .localizacao{
-        margin-top: 40px;
+        padding-top: 70px;
+        padding-bottom: 27px;
     }
 
     .fundo{
         padding: 70px;
+        padding-bottom: 0px;
     }
 
     .frase{
