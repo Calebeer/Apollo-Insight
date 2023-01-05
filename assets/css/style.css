@@ -21,8 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 0.5rem 2rem;
-    
-    
+     
 }
 
 .logo {
@@ -32,7 +31,6 @@ header {
     background-size: 80px 64px;
     font-size: 5px;
     top: 20px;   
-    
     
 }
 
@@ -116,6 +114,9 @@ header {
     font-weight: bold;
     padding-bottom: 17px;
     font-size: 20px;
+
+    animation: fadeIn; 
+    animation-duration: 6s; 
 }
 
 .container3{
@@ -171,6 +172,8 @@ header {
     color: #fff;
     font-size: 200%;
    
+    animation: fadeIn; 
+    animation-duration: 3s; 
 }
 
 
@@ -270,6 +273,7 @@ header {
     #img-1{
         width: 60%;
         display: none;
+
     }
     
     .localizacao {
