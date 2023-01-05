@@ -124,6 +124,12 @@ header {
     display: flex;
     
     flex-direction: row;
+    
+}
+
+.tudo{
+    margin: auto;
+    display: flex;
 }
 
 
@@ -194,7 +200,7 @@ header {
 }
 
 @media screen and (max-width: 810px) {
-    
+
     .frase {
         font-family: 'Montserrat', sans-serif;
         color: #fff;
@@ -204,16 +210,27 @@ header {
 
 @media screen and (max-width: 810px) {
     
+    .tudo{
+        background-color: #025487;
+        padding: 30px;
+        display: flex;
+        
+        flex-direction: column;
+        
+    }
+    
     .fundo {
         padding: 150px;
         padding-bottom: 0;
     }
 
     .container3{
-        text-align: center;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        background-color: #025487;
+        padding: 30px;
+        display: flex;
+        
+        flex-direction: row;
+        
     }
 
     .video{
