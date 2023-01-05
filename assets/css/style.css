@@ -369,7 +369,11 @@ header {
 
     .frase{
         padding-top: 80px;
-        font-size: 120%;
+        font-size: 115%;
+    }
+
+    .tudo > h1{
+        margin: auto;
     }
 }
 
