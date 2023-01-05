@@ -105,6 +105,8 @@ header {
     
 }
 
+
+
 /* html{
     padding-bottom: 1000px;
 } */
@@ -209,7 +211,7 @@ header {
 }
 
 @media screen and (max-width: 810px) {
-    
+
     .tudo{
         background-color: #025487;
         padding: 30px;
