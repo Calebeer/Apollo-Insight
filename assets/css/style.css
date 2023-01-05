@@ -194,6 +194,10 @@ header {
 
 @media screen and (max-width: 810px) {
     
+    .fundo{
+        padding: 150px;
+    }
+
     .container3{
         text-align: center;
         flex-direction: column;
@@ -225,6 +229,11 @@ header {
           
     }
 
+    .frase{
+        padding-top: 50px;
+        
+    }
+
     .container{
         display: block;
         align-items: center;
@@ -232,11 +241,11 @@ header {
     }
     #img-1{
         width: 60%;
-        
+        display: none;
     }
     
     .localizacao{
-        margin-top: 30px;
+        margin-top: 40px;
     }
 
     .nav-bar {
@@ -297,4 +306,31 @@ header {
     }
 }
 
+@media screen and (max-width:600px) {
+    .fundo{
+        padding: 100px;
+    }
+
+    .frase{
+        padding-top: 80px;
+        font-size: 150%;
+        padding-bottom: 0px;
+        
+    }
+}
+
+@media screen and (max-width:400px) {
+    .localizacao{
+        margin-top: 40px;
+    }
+
+    .fundo{
+        padding: 70px;
+    }
+
+    .frase{
+        padding-top: 80px;
+        font-size: 120%;
+    }
+}
 
