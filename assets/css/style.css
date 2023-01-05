@@ -125,6 +125,73 @@ header {
     flex-direction: row;
 }
 
+
+.dinamico li{
+    color: #3A465F;
+    list-style: none;
+    font-size: 40px;
+    font-weight: 500;
+    left: 0;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+.dinamico li span::after{
+    content: " " ;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border-left: 2px  solid rgb(255, 255, 255);
+    animation: typing 3.0s steps(10) infinite;  
+    background: #FAC83E;
+}
+
+#nome{
+    position: flex;
+    right: 305px;
+    top: 128px;
+}
+
+.dinamico li span{
+    position: relative;
+
+}
+
+.frase{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 200%;
+   
+}
+
+
+.text-mid{
+    color: white;
+    font-size: 230%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#ca{
+    display: block;
+}
+
+.video{
+    padding:0;
+    display: flex;
+}
+
+.text4{
+    color: white;
+    padding-left: 80px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 130%;
+    max-width: 500px;
+
+}
+
 @media screen and (max-width: 810px) {
     
     .container3{
@@ -135,14 +202,9 @@ header {
     }
 
     .video{
-        /* padding:0;
-        display: flex;
-        flex-direction: row;
-        max-width: 100px; */
         margin:0px -20px 30px -20px;
         position: relative;
         padding-bottom: 57%;
-        
     }
 
     iframe{
@@ -235,68 +297,4 @@ header {
     }
 }
 
-.dinamico li{
-    color: #3A465F;
-    list-style: none;
-    font-size: 40px;
-    font-weight: 500;
-    left: 0;
-    position: relative;
-    top: 0;
-    animation: slide 6s steps(4) infinite;
-}
 
-.dinamico li span::after{
-    content: " " ;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    border-left: 2px  solid rgb(255, 255, 255);
-    animation: typing 3.0s steps(10) infinite;  
-    background: #FAC83E;
-}
-
-#nome{
-    position: flex;
-    right: 305px;
-    top: 128px;
-}
-
-.dinamico li span{
-    position: relative;
-
-}
-
-.frase{
-    font-family: 'Montserrat', sans-serif;
-    color: #fff;
-    font-size: 200%;
-   
-}
-
-
-.text-mid{
-    color: white;
-    font-size: 230%;
-    font-family: 'Montserrat', sans-serif;
-    
-}
-
-#ca{
-    display: block;
-}
-
-.video{
-    padding:0;
-    display: flex;
-}
-
-.text4{
-    color: white;
-    padding-left: 80px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 130%;
-    max-width: 500px;
-
-}
