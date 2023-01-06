@@ -103,9 +103,9 @@ header {
     
 }
 
-/* html{
+html{
     padding-bottom: 1000px;
-} */
+}
 
 .localizacao {
     color: #24252a;
@@ -133,38 +133,10 @@ header {
     display: flex;
 }
 
-
-.dinamico li{
-    color: #3A465F;
-    list-style: none;
-    font-size: 40px;
-    font-weight: 500;
-    left: 0;
-    position: relative;
-    top: 0;
-    animation: slide 6s steps(4) infinite;
-}
-
-.dinamico li span::after{
-    content: " " ;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    border-left: 2px  solid rgb(255, 255, 255);
-    animation: typing 3.0s steps(10) infinite;  
-    background: #FAC83E;
-}
-
 #nome{
     position: flex;
     right: 305px;
     top: 128px;
-}
-
-.dinamico li span{
-    position: relative;
-
 }
 
 .frase{
