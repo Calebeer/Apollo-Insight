@@ -120,7 +120,7 @@ html{
 
 .container3{
     background-color: #025487;
-    padding: 30px;
+    padding: 50px;
     display: flex;
     
     flex-direction: row;
@@ -173,12 +173,12 @@ html{
 
 }
 
-.redes{
+.container4{
     color: black;
     
 }
 
-.redes > .redes-text1{
+.container4 > .redes-text1{
     
     font-size: 130%;
     font-weight: 40px;
@@ -187,7 +187,24 @@ html{
     font-weight: bold;
 }
 
+.redes{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
 
+#insta{
+    width: 15%;
+    background-size: 80px 64px;
+    padding-right: 30px;
+}
+
+#wats{
+    width: 15%;
+    display: flex;
+}
 
 @media screen and (max-width: 810px) {
 
