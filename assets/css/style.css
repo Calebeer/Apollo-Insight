@@ -144,7 +144,7 @@ html{
     font-size: 200%;
    
     animation: fadeIn; 
-    animation-duration: 3s; 
+    animation-duration: 2s; 
 }
 
 
@@ -247,7 +247,6 @@ html{
     }
 
     iframe{
-        
         top: 5%;
         left: 5%;
         width: 90%;
@@ -261,7 +260,6 @@ html{
         font-family: 'Montserrat', sans-serif;
         font-size: 100% !important;
         max-width: 500px;  
-          
     }
 
     .frase{
@@ -271,7 +269,7 @@ html{
 
     .container{
         display: block;
-        align-items: center;
+        align-items: center; 
         transition-timing-function:ease ;
     }
     #img-1{
