@@ -193,18 +193,33 @@ html{
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+   
 }
 
-#insta{
-    width: 15%;
-    background-size: 80px 64px;
-    padding-right: 30px;
-}
 
-#wats{
-    width: 15%;
+
+.container-insta > img{
+    width: 230px;
     display: flex;
 }
+
+.container-insta > h2{
+    padding-left: 35px;
+    font-weight: 40px;
+
+    
+}
+
+.container-wats > img{
+    width: 210px;
+}
+
+.container-wats > h2{
+    padding-top: 75px;
+}
+
+
+
 
 @media screen and (max-width: 810px) {
 
