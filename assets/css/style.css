@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&display=swap');
 
@@ -449,6 +450,20 @@ html{
         padding-bottom: 0px;
         
     }
+
+    .redes{
+        padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+       
+    }
+
+    .container-wats {
+        padding-top: 30px;
+    }
 }
 
 @media screen and (max-width:400px) {
@@ -472,4 +487,3 @@ html{
         margin: auto;
     }
 }
-
