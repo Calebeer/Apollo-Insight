@@ -206,16 +206,24 @@ html{
 .container-insta > h2{
     padding-left: 35px;
     font-weight: 40px;
-
     
 }
 
 .container-wats > img{
-    width: 210px;
+    width: 153px;
+    padding-top: 62px;
+    height: 103px;
 }
 
 .container-wats > h2{
-    padding-top: 75px;
+    padding-top: 60px;
+}
+
+
+.container5{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
 }
 
 
@@ -331,7 +339,7 @@ html{
 
     #logo-img {
         position: absolute; 
-        top: 20px; /* posiciona a 70px para baixo */
+        top: 20px; 
         right: 10px;
         }
 
