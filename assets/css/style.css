@@ -463,6 +463,11 @@ html{
 
     .container-wats {
         padding-top: 30px;
+        padding-left: 20px;
+    }
+
+    .container-wats > h2{
+        padding-right: 40px;
     }
 }
 
