@@ -299,7 +299,18 @@
      transform: scaleX(1);
    }
  
- 
+   .imagens{
+        padding-top: 110px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        transition: 4s; 
+   }
+   
+    .asd:hover{
+        transform: scale(1.1); 
+    }
+
  @media screen and (max-width: 810px) {
  
      .frase {
