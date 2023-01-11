@@ -82,7 +82,7 @@
  .fundo {
      background-image: linear-gradient(to top, #FAC83E , #f0cb67,#F2C23D);
      padding: 50px;
-     padding-bottom: 0;
+     padding-bottom: 102px;
  }
  
  .container{
@@ -109,9 +109,10 @@
      font-size: 18px;
      text-align: center;
      font-weight: bold;
-     padding-bottom: 17px;
+     padding-bottom: 0px;
      font-size: 20px;
- 
+     position: relative;
+     top: 90px;
      animation: fadeIn; 
      animation-duration: 6s; 
  }
@@ -205,6 +206,7 @@
      width: 153px;
      padding-top: 62px;
      height: 103px;
+     padding-left: 25px;
  }
  
  .container-insta > h2{
@@ -298,11 +300,9 @@
    }
  
    .imagens{
-        background-color: #f7d16a;
-        padding-top: 110px;
+        padding-top: 60px;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
         transition: 4s; 
    }
    
