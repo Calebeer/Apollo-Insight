@@ -82,7 +82,7 @@
  .fundo {
      background-image: linear-gradient(to top, #FAC83E , #f0cb67,#F2C23D);
      padding: 50px;
-     padding-bottom: 102px;
+     padding-bottom: 0px;
  }
  
  .container{
@@ -99,7 +99,7 @@
  }
  
  #img-1{
-     width: 40%;
+     width: 100%;
      padding: 70px;
      
  }
@@ -112,7 +112,7 @@
      padding-bottom: 0px;
      font-size: 20px;
      position: relative;
-     top: 90px;
+     bottom: 20px;
      animation: fadeIn; 
      animation-duration: 6s; 
  }
