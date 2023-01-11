@@ -361,12 +361,63 @@
         color: rgb(167, 168, 168);
         padding-left: 10px;
     }
-
+  
     .footer-col .medias-sociais{
         margin-top: 30px;
     }
+
+    .footer-col .medias-sociais a{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 40px;
+        margin: 0 10px 10px 0;
+        text-decoration: none;
+        border-radius: 50%;
+        color: white;
+        border: 1px solid white;
+        transition: all 0.5s ease;
+    } 
+
+    .footer-col .medias-sociais a i{
+         font-size: 20px;
+    }
+
+    .footer-col .medias-sociais a:hover{
+        color: #025487;
+        background-color: white;
+    }
+
+    .footer-col .form-sub input{
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+        outline: none;
+        border: 1px solid white;
+        background-color: #025487;
+    }
+
+    .footer-col .form-sub button{
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 17px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: #025487;
+        border-radius: 3px;
+        font-weight: bold;
+        background-color: white;
+    }
  @media screen and (max-width: 810px) {
  
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
      .frase {
          font-family: 'Montserrat', sans-serif;
          color: #fff;
@@ -536,6 +587,11 @@
  
      .container-wats > h2{
          padding-right: 85px;
+     }
+
+     .footer-col{
+        width: 100%;
+        
      }
  }
  
