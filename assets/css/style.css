@@ -173,7 +173,7 @@
  
  .container4{
      color: black;
-     
+     padding-bottom: 200px;
  }
  
  .container4 > .redes-text1{
@@ -181,7 +181,8 @@
      font-size: 130%;
      font-weight: 40px;
      text-align: center;
-     padding-top: 25px;
+     padding-top: 40px;
+     padding-bottom:40px;
      font-weight: bold;
  }
  
@@ -362,11 +363,11 @@
         padding-left: 10px;
     }
   
-    .footer-col .medias-sociais{
+     .medias-sociais{
         margin-top: 30px;
     }
 
-    .footer-col .medias-sociais a{
+     .medias-sociais a{
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -380,11 +381,11 @@
         transition: all 0.5s ease;
     } 
 
-    .footer-col .medias-sociais a i{
+     .medias-sociais a i{
          font-size: 20px;
     }
 
-    .footer-col .medias-sociais a:hover{
+     .medias-sociais a:hover{
         color: #025487;
         background-color: white;
     }
