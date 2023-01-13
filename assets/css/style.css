@@ -603,6 +603,13 @@
         width: 100%;
         
      }
+
+     .container-wats > img{
+        width: 153px;
+        padding-top: 62px;
+        height: 103px;
+        padding-left: 6px;
+    }
  }
  
  @media screen and (max-width:400px) {
