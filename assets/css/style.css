@@ -597,7 +597,7 @@ body{
         width: 153px;
         padding-top: 62px;
         height: 103px;
-        padding-left: 31px;
+        padding-left: 34px;
     }
 
     
@@ -644,5 +644,14 @@ body{
         text-decoration: none;
         position: relative;
         padding-right: 43px;
+    }
+
+    .frase{
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+        font-size: 150%;
+       
+        animation: fadeIn; 
+        animation-duration: 2s; 
     }
 }
