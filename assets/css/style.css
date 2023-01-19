@@ -151,7 +151,10 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 130%;
     max-width: 500px;
+}
 
+.text4 p{
+    padding-top: 25px;
 }
  
 .container4{
