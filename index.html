@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link
     rel="stylesheet"
@@ -21,7 +22,6 @@
         <nav class="nav-bar">
             <div class="logo">
                 <h1><img src="logo.png" alt="logo"></h1>
-                <p><img src="logo.png" alt="logo"></p>
             </div>
             <div class="nav-list">
                 <ul>
@@ -49,7 +49,7 @@
     </header>
     
     <div class="fundo" >
-    <div class="container" >
+    <div class="container"  >
          <img id="img-1" src="logo2.png" alt="img">
          
              <p  class="frase" >FAÇA JÁ SEU ORÇAMENTO, E ANÚNCIE SUA EMPRESA AQUI NA APOLLO INSIGHT.</p>
@@ -70,10 +70,10 @@
     <div class="container3">
         
             <div class="tudo">
-                <iframe width="500" height="320" src="https://www.youtube.com/embed/BWtSiG2QFGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="500" height="320" data-aos="fade-up" src="https://www.youtube.com/embed/BWtSiG2QFGk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         
-                        <div class="text4" >
-                <h1>Quem somos?</h1>
+                        <div class="text4" data-aos="fade-in" >
+                <h1 >Quem somos?</h1>
                 <p>Nós, da Apollo Insight, acreditamos que a chave para o sucesso de qualquer negócio é a sua visibilidade e alcance. Por isso, trabalhamos incansavelmente para oferecer aos nossos clientes estratégias de marketing eficazes e personalizadas, com o objetivo de aumentar a sua presença online e offline, atrair novos clientes e maximizar os resultados do seu negócio.</p>
                         </div>
             </div>
@@ -81,17 +81,17 @@
     </div>
     
     <div class="container4">
-        <div class="redes-text1">
+        <div class="redes-text1" data-aos="fade-in">
             <h1>NOSSAS REDES SOCIAIS</h1>
         </div>
         <div class="redes">
             
-            <div class="container-insta" >
+            <div class="container-insta" data-aos="fade-right" >
                 <img  src="img/insta.png" alt="logo-instagram" >
                     <h2><a id="nome-insta"  href="https://www.instagram.com/apolloinsight/" target="_blank">@apolloinsight</a></h2>
             </div>            
             
-            <div class="container-wats ">
+            <div class="container-wats " data-aos="fade-left">
                 <img src="img/wats5.png" alt="logo-watssap">
                 <h2><a  href="https://wa.me/5599988126601?text=Fa%C3%A7a%20agora%20seu%20or%C3%A7amento" target="_blank" >(99) 98812-6601</a></h2>
             </div>
@@ -144,3 +144,7 @@
 
 
     <script src="js.js" ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>

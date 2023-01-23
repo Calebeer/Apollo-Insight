@@ -16,6 +16,15 @@ body{
     background-attachment: fixed;
 }
 
+.init-hideen{
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.init-hideen-off{
+    opacity: 1;
+}
+
  header {
      background-color: #24252a;
      box-shadow: 0px 3px 10px #464646;
@@ -151,6 +160,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 130%;
     max-width: 500px;
+    transition: 2.0s;
 }
 
 .text4 p{
@@ -611,6 +621,13 @@ body{
         text-decoration: none;
         position: relative;
         padding-right: 43px;
+    }
+
+    .container-wats > img{
+        width: 163px;
+        padding-top: 62px;
+        height: 103px;
+        padding-left: 27px;
     }
 
     .frase{
