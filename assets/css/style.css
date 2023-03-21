@@ -14,6 +14,7 @@
  
 body{
     background-attachment: fixed;
+    
 }
 
 .init-hideen{
@@ -122,6 +123,8 @@ body{
     animation-duration: 2s; 
 }
 
+
+
  .text{
      font-size: 200%;
      color: white;
@@ -188,10 +191,11 @@ body{
     align-items: center;
     justify-content: center;
     justify-content: space-around;
-     
+    
 }
 
 .container-insta > img{
+    
     width: 230px;
     display: flex;
 }
