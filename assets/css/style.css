@@ -17,6 +17,10 @@ body{
     
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .init-hideen{
     opacity: 0;
     transition: opacity 1s linear;
